@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Armando\\Documents\\SEGUNDA VERSION\\ProyectCE\\ProyectCE.csproj": {}
+    "C:\\Users\\Armando\\Documents\\SEGUNDA VERSION\\ProyectCE\\ProyectCE.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Armando\\Documents\\SEGUNDA VERSION\\ProyectCE\\ProyectCE.csproj": {
+    "C:\\Users\\Armando\\Documents\\SEGUNDA VERSION\\ProyectCE\\ProyectCE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Armando\\Documents\\SEGUNDA VERSION\\ProyectCE\\ProyectCE.csproj",
+        "projectUniqueName": "C:\\Users\\Armando\\Documents\\SEGUNDA VERSION\\ProyectCE\\ProyectCE.csproj",
         "projectName": "ProyectCE",
-        "projectPath": "c:\\Users\\Armando\\Documents\\SEGUNDA VERSION\\ProyectCE\\ProyectCE.csproj",
+        "projectPath": "C:\\Users\\Armando\\Documents\\SEGUNDA VERSION\\ProyectCE\\ProyectCE.csproj",
         "packagesPath": "C:\\Users\\Armando\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Armando\\Documents\\SEGUNDA VERSION\\ProyectCE\\obj\\",
+        "outputPath": "C:\\Users\\Armando\\Documents\\SEGUNDA VERSION\\ProyectCE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Armando\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,19 +44,29 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.9, )"
+              "version": "[6.0.14, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[6.0.9, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.9, )"
+              "version": "[6.0.19, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.9, )"
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             }
           },
           "imports": [
